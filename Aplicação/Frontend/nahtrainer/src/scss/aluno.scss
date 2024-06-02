@@ -1,0 +1,55 @@
+// Cores
+$blue: #0948B3;
+$indigo: #4c5680;
+$purple: #8965e0;
+$pink: #C96480;
+$red: #FA5252;
+$orange: #FF9F89;
+$yellow: #f5b759;
+$green: #05A677;
+$teal: #1E90FF;
+$cyan: #63b1bd;
+
+// Modais
+.modal {
+  &.static-example {
+    position: relative;
+    display: block;
+  }
+
+  .modal-content {
+    border: 0;
+    border-radius: 0;
+  }
+
+  .modal-fluid {
+    .modal-dialog {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .modal-content {
+      border-radius: 0;
+    }
+  }
+}
+
+// Botões de ação
+.btn-danger,
+.btn-info {
+  color: #fff;
+}
+
+// Tabela de alunos
+.table {
+  th {
+    background-color: $blue;
+    color: black;
+  }
+
+  td {
+    button {
+      color: inherit;
+    }
+  }
+}
