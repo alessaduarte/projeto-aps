@@ -6,8 +6,8 @@ import { faAngular, faBootstrap, faReact, faVuejs } from "@fortawesome/free-bran
 import { Col, Row, Card, Image, Button, ListGroup, ProgressBar } from '@themesberg/react-bootstrap';
 import { CircleChart, BarChart, SalesValueChart, SalesValueChartphone } from "./Charts";
 
-import Profile1 from "../assets/img/team/profile-picture-1.jpg";
-import ProfileCover from "../assets/img/profile-cover.jpg";
+import ProfileIcon from "../assets/img/team/profile-picture.png";
+import ProfileCover from "../assets/img/profile-cover.png";
 
 import teamMembers from "../data/teamMembers";
 
@@ -16,16 +16,11 @@ export const ProfileCardWidget = () => {
   return (
     <Card border="light" className="text-center p-0 mb-4">
       <div style={{ backgroundImage: `url(${ProfileCover})` }} className="profile-cover rounded-top" />
-      <Card.Body className="pb-5">
-        <Card.Img src={Profile1} alt="Neil Portrait" className="user-avatar large-avatar rounded-circle mx-auto mt-n7 mb-4" />
-        <Card.Title>Neil Sims</Card.Title>
-        <Card.Subtitle className="fw-normal">Senior Software Engineer</Card.Subtitle>
-        <Card.Text className="text-gray mb-4">New York, USA</Card.Text>
-
-        <Button variant="primary" size="sm" className="me-2">
-          <FontAwesomeIcon icon={faUserPlus} className="me-1" /> Connect
-        </Button>
-        <Button variant="secondary" size="sm">Send Message</Button>
+      <Card.Body className="pb-2">
+        <Card.Img src={ProfileIcon} alt="" className="user-avatar large-avatar rounded-circle mx-auto mt-n7 mb-4" />
+        <Card.Title>Olivia Monteiro</Card.Title>
+        <Card.Subtitle className="fw-normal">Personal Trainer</Card.Subtitle>
+        <Card.Text className="text-gray mb-4">João Pessoa, Paraíba</Card.Text>
       </Card.Body>
     </Card>
   );
@@ -50,8 +45,8 @@ export const ChoosePhotoWidget = (props) => {
                 </span>
                 <input type="file" />
                 <div className="d-md-block text-start">
-                  <div className="fw-normal text-dark mb-1">Choose Image</div>
-                  <div className="text-gray small">JPG, GIF or PNG. Max size of 800K</div>
+                  <div className="fw-normal text-dark mb-1">Escolha a Imagem</div>
+                  <div className="text-gray small">JPG, GIF ou PNG</div>
                 </div>
               </div>
             </div>
