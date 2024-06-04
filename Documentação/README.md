@@ -33,12 +33,12 @@ Documentação abrangendo a fase de ideação, definição de escopo, levantamen
 
 | ID      | Descrição do Requisito |
 | ----------- | ----------- |
-| RF001      | Desempenho      |
-| RF002   | Segurança        |
-| RF003   | Usabilidade       |
-| RF004   | Interoperabilidade        |
-| RF005   | Manutenabilidade        |
-| RF006   | Confiabiliade        |
+| RNF001      | Desempenho      |
+| RNF002   | Segurança        |
+| RNF003   | Usabilidade       |
+| RNF004   | Interoperabilidade        |
+| RNF005   | Manutenabilidade        |
+| RNF006   | Confiabiliade        |
 
 <br />
 
