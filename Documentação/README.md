@@ -65,11 +65,11 @@ Como personal trainer, eu quero ter a possibilidade de criar treinos personaliza
 
 <br />
 
-### Critérios de Aceitação
+### Critérios de Aceite
 
 **1. Autenticação**
 - A aplicação deve permitir que a entrada de nome, e-mail e senha para cadastro de usuários.
-- A autenticação deverá ser feita utilizando as credenciais fornecidades anteriormente, especificamente e-mail e senha.
+- A autenticação deverá ser feita utilizando as credenciais fornecidas anteriormente, especificamente e-mail e senha.
 
 **2. Mensagens de Feedback**
 - Caso o cadastro seja bem sucedido, a aplicação deve exibir uma mensagem de "Cadastro realizado com sucesso!".
