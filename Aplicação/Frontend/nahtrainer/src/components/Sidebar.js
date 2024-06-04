@@ -105,19 +105,8 @@ export default (props = {}) => {
               <NavItem title="Treinos" icon={faDumbbell} link={Routes.Treinos.path} />
               <NavItem title="Agendamentos" icon={faCalendar} link={Routes.Agendamentos.path} />
 
-              <CollapsableNavItem eventKey="examples/" title="Page Examples" icon={faFileAlt}>
-                <NavItem title="Sign In" link={Routes.Signin.path} />
-                <NavItem title="Sign Up" link={Routes.Signup.path} />
-                <NavItem title="Forgot password" link={Routes.ForgotPassword.path} />
-                <NavItem title="Reset password" link={Routes.ResetPassword.path} />
-                <NavItem title="Lock" link={Routes.Lock.path} />
-                <NavItem title="404 Not Found" link={Routes.NotFound.path} />
-                <NavItem title="500 Server Error" link={Routes.ServerError.path} />
-              </CollapsableNavItem>
-
               <Dropdown.Divider className="my-3 border-indigo" />
               
-              <NavItem title="Alterar modo" icon={faMoon} link={''} />
               <NavItem title="Sair" icon={faSignOutAlt} link={Routes.Login.path} />
             </Nav>
           </div>

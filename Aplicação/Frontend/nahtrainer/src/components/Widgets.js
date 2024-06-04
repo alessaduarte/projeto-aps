@@ -18,9 +18,9 @@ export const ProfileCardWidget = () => {
       <div style={{ backgroundImage: `url(${ProfileCover})` }} className="profile-cover rounded-top" />
       <Card.Body className="pb-2">
         <Card.Img src={ProfileIcon} alt="" className="user-avatar large-avatar rounded-circle mx-auto mt-n7 mb-4" />
-        <Card.Title>Olivia Monteiro</Card.Title>
+        <Card.Title>Natália</Card.Title>
         <Card.Subtitle className="fw-normal">Personal Trainer</Card.Subtitle>
-        <Card.Text className="text-gray mb-4">João Pessoa, Paraíba</Card.Text>
+        <Card.Text className="text-gray mb-4">Lucena, Paraíba</Card.Text>
       </Card.Body>
     </Card>
   );

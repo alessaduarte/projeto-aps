@@ -15,7 +15,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
-import App from './app'; // Ajuste do caminho de importação do componente App
+import App from './app';
 import "./scss/volt.scss";
 import "react-datetime/css/react-datetime.css";
 
@@ -25,6 +25,7 @@ ReactDOM.render(
   </Router>,
   document.getElementById('root')
 );
+
 
 // ReactDOM.render(
 //   <HashRouter>

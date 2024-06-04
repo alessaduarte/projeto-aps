@@ -59,12 +59,10 @@ const AlunosTable = () => {
             </Dropdown.Toggle>
             <Dropdown.Menu>
               <Dropdown.Item>
-                <FontAwesomeIcon icon={faInfoCircle} className="me-2" /> Visualizar
-              </Dropdown.Item>
-              <Dropdown.Item>
                 <FontAwesomeIcon icon={faEdit} className="me-2" /> Editar
               </Dropdown.Item>
-              <Dropdown.Item className="text-danger">
+              <Dropdown.Item className="
+text-danger">
                 <FontAwesomeIcon icon={faTrashAlt} className="me-2" /> Remover
               </Dropdown.Item>
             </Dropdown.Menu>
@@ -75,27 +73,27 @@ const AlunosTable = () => {
   };
 
   return (
-      <Container className="my-3">
-        <h2>Alunos</h2>
-        <Row className='justify-content-between'>
-          <Col xs="auto" className="flex-grow-1">
-            <InputGroup>
-              <InputGroup.Text>
-                <FontAwesomeIcon icon={faSearch} />
-              </InputGroup.Text>
-              <FormControl 
-                placeholder="Pesquisar" 
-                value={search} 
-                onChange={e => setSearch(e.target.value)} 
-              />
-            </InputGroup>
-          </Col>
-          <Col xs="auto">
-            <Button variant="outline-primary" size="sm" onClick={handleShowModal} style={{ width: '100%' }}>
-              <FontAwesomeIcon icon={faPlus} />
-            </Button>
-          </Col>
-        </Row>
+    <Container className="my-3">
+      <h2>Alunos</h2>
+      <Row className="justify-content-between">
+        <Col xs="auto">
+          <InputGroup style={{ maxWidth: '300px' }}>
+            <InputGroup.Text>
+              <FontAwesomeIcon icon={faSearch} />
+            </InputGroup.Text>
+            <FormControl 
+              placeholder="Pesquisar" 
+              value={search} 
+              onChange={e => setSearch(e.target.value)} 
+            />
+          </InputGroup>
+        </Col>
+        <Col xs="auto">
+          <Button variant="outline-primary" size="sm" onClick={handleShowModal} className="ms-2">
+            <FontAwesomeIcon icon={faPlus} />
+          </Button>
+        </Col>
+      </Row>
 
       <CadastrarAluno show={showModal} handleClose={handleCloseModal} />
 

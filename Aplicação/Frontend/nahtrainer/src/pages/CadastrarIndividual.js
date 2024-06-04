@@ -5,7 +5,6 @@ const CadastrarIndividual = ({ show, handleClose }) => {
   const [title, setTitle] = useState('');
   const [horario, setHorario] = useState('');
   const [dia, setDia] = useState('');
-  const [quantidade, setQuantidade] = useState('');
   const [dataInicio, setDataInicio] = useState('');
 
   const handleSubmit = (e) => {
@@ -48,16 +47,6 @@ const CadastrarIndividual = ({ show, handleClose }) => {
               placeholder="Dia da semana" 
               value={dia} 
               onChange={e => setDia(e.target.value)} 
-              required 
-            />
-          </Form.Group>
-          <Form.Group controlId="formQuantidade" className="mt-3">
-            <Form.Label>Quantidade</Form.Label>
-            <Form.Control 
-              type="number" 
-              placeholder="Quantidade de alunos" 
-              value={quantidade} 
-              onChange={e => setQuantidade(e.target.value)} 
               required 
             />
           </Form.Group>

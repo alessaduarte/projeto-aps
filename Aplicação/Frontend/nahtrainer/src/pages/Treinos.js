@@ -103,9 +103,6 @@ const TreinosTable = () => {
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
                     <Dropdown.Item>
-                        <FontAwesomeIcon icon={faInfoCircle} className="me-2" /> Visualizar
-                    </Dropdown.Item>
-                    <Dropdown.Item>
                         <FontAwesomeIcon icon={faEdit} className="me-2" /> Editar
                     </Dropdown.Item>
                     <Dropdown.Item className="text-danger">
@@ -150,6 +147,7 @@ const TreinosTable = () => {
                 <th>Nome</th>
                 <th>Descrição</th>
                 <th>Séries</th>
+                <th>Ações</th>
                 </tr>
             </thead>
             <tbody>
