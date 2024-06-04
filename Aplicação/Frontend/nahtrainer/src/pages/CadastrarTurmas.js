@@ -29,11 +29,16 @@ const CadastrarTurma = ({ show, handleClose }) => {
             <Form.Label>Data de Início</Form.Label>
             <Form.Control type="date" placeholder="Digite a data de início" />
           </Form.Group>
-          <Button variant="primary" type="submit">
-            Cadastrar
-          </Button>
         </Form>
       </Modal.Body>
+      <Modal.Footer className="d-flex justify-content-end">
+        <Button variant="primary" onClick={handleClose} className="ms-2">
+          Fechar
+        </Button>
+        <Button variant="yellow" type="submit" className="ms-2">
+          Salvar
+        </Button>
+      </Modal.Footer>
     </Modal>
   );
 };

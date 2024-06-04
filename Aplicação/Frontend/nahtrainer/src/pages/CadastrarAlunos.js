@@ -36,10 +36,10 @@ const CadastrarAluno = ({ show, handleClose }) => {
         </Form>
       </Modal.Body>
       <Modal.Footer>
-        <Button variant="secondary" onClick={handleClose}>
+        <Button variant="primary" onClick={handleClose}>
           Fechar
         </Button>
-        <Button variant="primary" type="submit">
+        <Button variant="yellow" type="submit">
           Cadastrar
         </Button>
       </Modal.Footer>

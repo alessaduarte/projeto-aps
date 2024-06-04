@@ -62,10 +62,10 @@ const CadastrarIndividual = ({ show, handleClose }) => {
           </Form.Group>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Cancelar
+          <Button variant="primary" onClick={handleClose}>
+            Fechar
           </Button>
-          <Button variant="primary" type="submit">
+          <Button variant="yellow" type="submit">
             Salvar
           </Button>
         </Modal.Footer>

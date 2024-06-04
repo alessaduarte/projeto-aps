@@ -51,10 +51,10 @@ const CadastrarTreinos = ({ show, handleClose }) => {
           </Form.Group>
         </Modal.Body>
         <ModalFooter>
-          <Button variant="secondary" onClick={handleClose}>
-            Cancelar
+          <Button variant="primary" onClick={handleClose}>
+            Fechar
           </Button>
-          <Button variant="secondary" type="submit">
+          <Button variant="yellow" type="submit">
             Salvar
           </Button>
         </ModalFooter>
